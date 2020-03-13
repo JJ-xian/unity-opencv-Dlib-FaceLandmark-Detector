@@ -1,0 +1,10 @@
+1东西如题 用了那两样东西。
+感叹这是什么神仙工具啊，以前的幻想，机会就这么实现了。
+里面有opencv的运动追踪，图像灰度实时处理，哦这是废话，所有都是实时摄像头处理，颜色识别，人脸识别并框出来，摄像头翻转，镜像。
+facelandmark更厉害，人脸轮廓识别，眼睛朝向识别。 人脸识别。
+直接导faceland它会提示缺opencv for unity 这个插件。
+于是去找opencvunity导入，导入之后还要 1.在Project中找到OpenCVForUnity文件夹将StreamingAssets文件夹拖入Assets文件夹，即与OpenCVForUnity文件夹平级。
+2.配置OpenCV For Unity插件
+这时我们的插件是不能直接使用的，需要在Unity菜单中依次选择Tools→OpenCV for Unity→Set Plugin Import Settings。
+
+然后玩faceland的时候，有些关键场景还是会报错提示，让你把什么文件复制到另一个文件夹下。 类似上面的2，我是吧opencv的那份重命名了，把faceland拖过去用的。然后就好了啊。
